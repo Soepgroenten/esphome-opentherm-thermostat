@@ -1,30 +1,17 @@
-# ESPHome OpenTherm Thermostat
+A more flexible ESPHome approach for the Diyless Thermostat 3, which remains as close as possible to the officially released yaml code for Thermostat .
 
-This repository includes sample ESPHome configurations for DIYLESS thermostats. For a more detailed guide, check out the full description in the DIYLESS blog post:
-https://diyless.com/blog/esphome-opentherm-thermostat
+Comparing to the original I’ve added these functionalities:
 
-## Home Assistant Dashboard
-![Home Assistant Dashboard](https://diyless.com/blog/esphome-opentherm-thermostat/esphome-opentherm-thermostat-sample-configuration.webp)
+Previous/Next Navigation
+Menu button which opens up a menu page containing a slider to change the screen brightness (ready to be extended)
+Flame icon on top which turns orange when the Central Heating burner is actually burning.
 
-## LVGL Configuration sample for Display UI
-![LVGL Configuration sample for Display UI](https://diyless.com/blog/esphome-opentherm-thermostat/diyless-thermostat-esphome-ui-interface.webp)
+It look like this:
+<img width="351" height="351" alt="1 (Custom)" src="https://github.com/user-attachments/assets/eb7b4dfb-dc3a-47d5-b0ae-2e895dbf018e" />
+<img width="477" height="447" alt="2 (Custom)" src="https://github.com/user-attachments/assets/f893713b-3923-4e88-81a8-0e580e167670" />
+<img width="429" height="431" alt="3 (Custom)" src="https://github.com/user-attachments/assets/08190322-ac11-4aa6-a4df-1d0056d4b6c5" />
+<img width="458" height="429" alt="4 (Custom)" src="https://github.com/user-attachments/assets/67848f51-70c5-4bf1-bd1c-c7528d7013a5" />
+<img width="443" height="426" alt="5 (Custom)" src="https://github.com/user-attachments/assets/069540d7-9bfb-4743-bd93-989ab71891d5" />
 
-## Web Server Interface
-![Web Server Interface](https://diyless.com/blog/esphome-opentherm-thermostat/esphome-opentherm-thermostat-webserver.webp)
-
-## DIYLESS Thermostats 
-
-## DIYLESS OpenTherm Thermostat 1
-https://diyless.com/product/opentherm-thermostat
-![DIYLESS OpenTherm Thermostat 1](https://diyless.com/blog/esphome-opentherm-thermostat/diyless-opentherm-thermostat-1.webp)
-
-## DIYLESS OpenTherm Thermostat 2
-https://diyless.com/product/opentherm-thermostat2
-![DIYLESS OpenTherm Thermostat 2](https://diyless.com/blog/esphome-opentherm-thermostat/diyless-opentherm-thermostat-2.webp)
-
-## DIYLESS OpenTherm Thermostat 3
-https://diyless.com/product/opentherm-thermostat3
-![DIYLESS OpenTherm Thermostat 3](https://diyless.com/blog/esphome-opentherm-thermostat/diyless-opentherm-thermostat-3.webp)
-
-## License
-Copyright (c) 2024 [DIYLESS](http://diyless.com/). Licensed under the [MIT license](/LICENSE?raw=true).
+Disclaimer
+I’ve tested it and confirmed working, and I’m offering this for free. But I cannot be held repsonsible for anything when using this → All usage of it is at your own risk!
